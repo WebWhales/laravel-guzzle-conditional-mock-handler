@@ -1,0 +1,36 @@
+{
+    "name": "webwhales/laravel-guzzle-conditional-mock-handler",
+    "description": "Offers a way to load mocked responses conditionally with Guzzle instead of a fixed queue in Laravel",
+    "license": "MIT",
+    "homepage": "https://github.com/WebWhales/laravel-guzzle-conditional-mock-handler",
+    "authors": [
+        {
+            "name": "Ronald Edelschaap",
+            "homepage": "https://webwhales.nl",
+            "email": "ronald.edelschaap@webwhales.nl",
+            "role": "Developer"
+        }
+    ],
+    "keywords": ["guzzle", "http", "laravel", "mocking", "testing"],
+    "autoload": {
+        "psr-4": {
+            "WebWhales\\LaravelGuzzleConditionalMockHandler\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "WebWhales\\LaravelGuzzleConditionalMockHandler\\Tests\\": "tests"
+        }
+    },
+    "require": {
+        "php": "^7.2",
+        "laravel/framework": "^6.0|^7.0",
+        "webwhales/guzzle-conditional-mock-handler": "^1.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~8.0"
+    },
+    "support": {
+        "issues": "https://github.com/WebWhales/laravel-guzzle-conditional-mock-handler/issues"
+    }
+}
