@@ -11,7 +11,7 @@ This package offers an easy way to use the
 Install this package using composer:
 
 ```
-composer require-dev webwhales/laravel-guzzle-conditional-mock-handler
+composer require --dev webwhales/laravel-guzzle-conditional-mock-handler
 ```
 
 
