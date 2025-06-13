@@ -10,7 +10,8 @@
 
 namespace WebWhales\LaravelGuzzleConditionalMockHandler\Tests;
 
-use Illuminate\Foundation\Testing\TestCase as BaseTestCase;
+use Illuminate\Foundation\Console\Kernel;
+use Orchestra\Testbench\TestCase as BaseTestCase;
 
 /**
  * Class TestCase
@@ -19,15 +20,4 @@ use Illuminate\Foundation\Testing\TestCase as BaseTestCase;
  */
 class TestCase extends BaseTestCase
 {
-    /**
-     * Creates the application.
-     *
-     * Needs to be implemented by subclasses.
-     *
-     * @return \Symfony\Component\HttpKernel\HttpKernelInterface
-     */
-    public function createApplication()
-    {
-        return new \Illuminate\Foundation\Application();
-    }
 }
